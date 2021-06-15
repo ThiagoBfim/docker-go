@@ -1,0 +1,10 @@
+
+FROM golang:alpine
+
+WORKDIR /usr/src/app
+
+#RUN go build -o .
+
+EXPOSE 8000
+
+CMD go run main.go
